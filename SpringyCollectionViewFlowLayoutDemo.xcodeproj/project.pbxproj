@@ -12,6 +12,7 @@
 		08A82DCA1ED60BC2008881FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A82DC81ED60BC2008881FC /* Main.storyboard */; };
 		08A82DCC1ED60BC2008881FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A82DCB1ED60BC2008881FC /* Assets.xcassets */; };
 		08A82DCF1ED60BC2008881FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A82DCD1ED60BC2008881FC /* LaunchScreen.storyboard */; };
+		08A82DD71ED60C54008881FC /* SpringyCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A82DD61ED60C54008881FC /* SpringyCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		08A82DCB1ED60BC2008881FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A82DCE1ED60BC2008881FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08A82DD01ED60BC2008881FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A82DD61ED60C54008881FC /* SpringyCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringyCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				08A82DC41ED60BC2008881FC /* AppDelegate.swift */,
+				08A82DD61ED60C54008881FC /* SpringyCollectionViewFlowLayout.swift */,
 				08A82DC61ED60BC2008881FC /* ViewController.swift */,
 				08A82DC81ED60BC2008881FC /* Main.storyboard */,
 				08A82DCB1ED60BC2008881FC /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A82DD71ED60C54008881FC /* SpringyCollectionViewFlowLayout.swift in Sources */,
 				08A82DC71ED60BC2008881FC /* ViewController.swift in Sources */,
 				08A82DC51ED60BC2008881FC /* AppDelegate.swift in Sources */,
 			);
